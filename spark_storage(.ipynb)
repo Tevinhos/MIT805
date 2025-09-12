@@ -1,0 +1,19 @@
+!pip install pyspark
+from pyspark.sql import SparkSession
+
+import os
+from pyspark.sql import SparkSession
+
+# Set JAVA_HOME temporarily for this session
+os.environ["JAVA_HOME"] = r"C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot"
+
+# Now start Spark
+spark = SparkSession.builder \
+    .appName("Read Local CSV") \
+    .master("local[*]") \
+    .getOrCreate()
+
+# Test read (example)
+file_path = "C:/Users/TevezCebekulu/Downloads/fhvhv_tripdata_2025-Jan_to_Jul.csv"
+df = spark.read.csv(file_path, header=True, inferSchema=True)
+df.show(5)
