@@ -192,7 +192,11 @@ This project includes:
         [2155 rows x 25 columns]
         Duplicates: 0
 
-  5. Variability  
+  5. Variability
+   -<img width="931" height="404" alt="image" src="https://github.com/user-attachments/assets/c8264ff3-a99a-4aa2-a18c-f4764a318151" />
+    <img width="933" height="400" alt="image" src="https://github.com/user-attachments/assets/83089ebf-283e-4431-a4e2-df137cba9947" />
+
+     
   6. Value
    -              pickup_datetime  trip_miles
         9253447  2025-07-16 03:56:42      450.59
@@ -204,17 +208,8 @@ This project includes:
         <img width="512" height="431" alt="image" src="https://github.com/user-attachments/assets/950d08ae-4767-42fe-aa92-c55797bb9214" />
       
 
-  12. Visualization  
-
-- Visualizations showing trends such as trips per day, trips by hour, busiest pickup zones, etc.
+  7. Visualization  
+    - Visualizations showing trends such as trips per day, trips by hour, busiest pickup zones, etc.
+      <img width="914" height="406" alt="image" src="https://github.com/user-attachments/assets/3b329722-4c94-4d91-b487-3f047dd89e06" />
 
 ---
-
-## 💻 How To Use
-
-### Prerequisites
-
-- Python 3.x  
-- Required libraries (can install via pip):
-  ```bash
-  pip install pandas matplotlib seaborn
